@@ -14,5 +14,9 @@ Using docker and compose you can simply start the containers by using the follow
 #### Details
 I documented in the code already my thougths, things that can be improved, where we could have possible bottlenecks etc.
 
-#### Testing
-Added a basic test covering the basic feature of the service, finding the optimal path between 2 assets
+#### Testing / Linting
+- Added a basic test covering the basic feature of the service, finding the optimal path between 2 assets.
+- MYPY is used for type linting and Ruff for general code linting
+
+#### Notes
+For the sake of this exercise, I haven't maintained a decent git history
